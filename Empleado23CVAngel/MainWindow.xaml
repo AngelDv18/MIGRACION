@@ -1,0 +1,27 @@
+﻿<Window x:Class="Empleado23CVAngel.MainWindow"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Empleado23CVAngel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="400">
+    <Grid>
+        <Label Content="Empleado" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Width="273" HorizontalContentAlignment="Center" RenderTransformOrigin="0.537,-0.05"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="64,56,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.467,-0.302"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Center" Height="30" Margin="0,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260"/>
+        <Label Content="Apellido" HorizontalAlignment="Left" Margin="70,132,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtApellido" HorizontalAlignment="Center" Height="30" Margin="0,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260"/>
+        <Label Content="Correo" HorizontalAlignment="Left" Margin="70,204,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtCorreo" HorizontalAlignment="Center" Height="31" Margin="0,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260"/>
+        <Label Content="Fecha" HorizontalAlignment="Left" Margin="70,272,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtFecha" HorizontalAlignment="Center" Height="30" Margin="0,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260" IsEnabled="False"/>
+        <Label Content="Id" HorizontalAlignment="Left" Margin="76,350,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Height="30" Margin="76,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260" IsEnabled="False"/>
+        <Button x:Name="BtnRead" Content="Ver" HorizontalAlignment="Left" Height="30" Margin="70,424,0,0" VerticalAlignment="Top" Width="272" FontSize="16" Background="#FF2ECAFF" Click="BtnRead_Click"/>
+        <Button Content="Editar" HorizontalAlignment="Left" Height="30" Margin="70,494,0,0" VerticalAlignment="Top" Width="272" FontSize="16" Background="#FFEEEB34"/>
+        <Button x:Name="BtnAdd" Content="Agregar" HorizontalAlignment="Left" Height="30" Margin="70,459,0,0" VerticalAlignment="Top" Width="272" FontSize="16" Background="#FF24E842" Click="BtnAdd_Click"/>
+        <Button x:Name="Eliminar" Content="Eliminar" HorizontalAlignment="Left" Height="30" Margin="70,529,0,0" VerticalAlignment="Top" Width="272" FontSize="16" Background="#FFF43C3C"/>
+    </Grid>
+</Window>
+    
